@@ -1,8 +1,30 @@
 aid: rcom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rcom.png
 name: Rcom
-description: 'Rcom is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Rcom (Reliance Communications, RCOM) is an Indian telecommunications and
+  digital infrastructure company providing enterprise connectivity, voice, and
+  data-center services. Its portfolio spans dedicated internet access and DDoS
+  protection, IP transit, MPLS VPN, Ethernet and leased lines, cloud networking
+  (Cloud X Fusion / Cloud X WAN), enterprise voice (E1 PRI, SIP trunk, IP
+  Centrex), cloud telephony and hosted contact centers, toll-free and global
+  access numbers, audio/web conferencing, colocation and managed data-center
+  services, and global subsea cable networks via its Global Cloud Xchange
+  subsidiary. The company surfaced in the API Evangelist network as a portfolio
+  lead; enrichment confirms an enterprise service business with customer and
+  billing portals but no public developer program, API surface, or well-known
+  discovery documents.
 url: https://raw.githubusercontent.com/api-evangelist/rcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Telecommunications
+- Enterprise
+- Networking
+- Data Center
+- Cloud
+- Connectivity
+- Voice
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://rcom.co.in
+  url: https://www.rcom.co.in/
+- type: Support
+  url: https://www.rcom.co.in/contact-us/
+- type: Blog
+  url: https://www.rcom.co.in/media-center/
+- type: DomainSecurity
+  url: security/rcom-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

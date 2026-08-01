@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://rcom.co.in/.well-known/*
+host: https://rcom.co.in
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No .well-known discovery documents are published. Reliance Communications
+  operates an enterprise telecom/infrastructure business with customer and
+  billing portals but no public developer program, API surface, or OAuth/OIDC
+  authorization server. No developer.*, api.*, or docs.* subdomain resolves.
